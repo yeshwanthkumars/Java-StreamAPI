@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class SkipFirst3ElementExample‎ {
+public class SkipFirst3ElementExample {
 
 	public static void main(String[] args) {
 
