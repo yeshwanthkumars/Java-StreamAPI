@@ -1,0 +1,16 @@
+package com.java.stream.revision.intermediateoperations;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class SkipExample {
+
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(1,2,3,4,5);
+
+        list.stream()
+                .skip(2)
+                .forEach(System.out::println);
+    }
+}
+
